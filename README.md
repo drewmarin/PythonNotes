@@ -98,3 +98,26 @@ print(list11)
 print("".join(list11))
 print("-".join(list11))
 ``` 
+
+## Functions
+Block of code meant to only be run when it is called and meant to be rerun
+
+```
+def function1():
+   print("Hello from function!")
+
+function1()
+
+def funtion3(s):
+   print("\t{}".format(s))
+
+funtion3("parameter")
+```
+
+## Lambda
+Function without a name, can only have one expression
+
+```
+add_4 = lambda x : x + 4
+print(add_4(5))
+```
