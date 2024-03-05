@@ -16,3 +16,10 @@ print(sys.platform)
 import requests
 x = requests.get('http://httpbin.org/get')
 print(x.content)
+
+from pwn import *
+
+print(cyclic(50))
+print(cyclic_find("laaa"))
+
+print(shellcraft.sh)
