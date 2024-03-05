@@ -121,3 +121,19 @@ Function without a name, can only have one expression
 add_4 = lambda x : x + 4
 print(add_4(5))
 ```
+
+## Virtual Enviornments
+Allow you to specifiy requirements such as specific packages and just a package list in general
+
+SYS lets you access lower level functions
+
+## Requests
+Allow you to programmatically access web content
+```
+import requests
+x = requests.get('http://httpbin.org/get')
+print(x.headers) #Shows Response Header
+print(x.status_code) #Returns status code such as 200 or 404
+print(x.cookies)
+```
+stopped at 8:01
